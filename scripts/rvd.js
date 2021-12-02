@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         RVD
-// @namespace    https://github.com/Spectroxx/tampermonkey-scripts/edit/main/scripts/rvd.js
-// @version      0.1
+// @namespace    https://github.com/Spectroxx/scripts/edit/main/scripts/rvd.js
+// @version      1.01
 // @description  Downloads Reddit videos
 // @author       Spectrox
 // @license      WTFPL (http://www.wtfpl.net/about)
-// @downloadURL  https://raw.githubusercontent.com/Spectroxx/tampermonkey-scripts/main/scripts/rvd.js
+// @downloadURL  https://raw.githubusercontent.com/Spectroxx/scripts/main/scripts/rvd.js
 // @match        *://*.reddit.com/*
 // ==/UserScript==
 "use strict";
