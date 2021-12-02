@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RVD
 // @namespace    https://github.com/Spectroxx/tampermonkey-scripts/edit/main/scripts/rvd.js
-// @version      0.1
+// @version      1.01
 // @description  Downloads Reddit videos
 // @author       Spectrox
 // @license      WTFPL (http://www.wtfpl.net/about)
