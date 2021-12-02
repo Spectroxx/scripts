@@ -18,8 +18,6 @@
       "text-align": "center",
       "font-size": "0.8em",
       margin: "0.2em",
-      "transition-duration": "0.4s",
-      cursor: "pointer",
    };
    var addLinks = (mutated, observer) => {
       var videoElem = document.querySelector("[data-test-id='post-content'] video");
