@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RVD
 // @namespace    https://github.com/Spectroxx/scripts/edit/main/scripts/rvd.js
-// @version      1.01
+// @version      1.02
 // @description  Downloads Reddit videos
 // @author       Spectrox
 // @license      WTFPL (http://www.wtfpl.net/about)
@@ -11,13 +11,16 @@
 "use strict";
 (function () {
    var btnStyles = {
-      background: "#fff",
-      color: "black",
-      border: "1px solid #555555",
+      top: "-2.85em",
+      left: "41em",
+      position: "relative",
+      background: "#1A1A1B",
+      color: "#818384",
+      border: "1px solid #818384",
       padding: "0.4em 0.6em",
-      "text-align": "center",
       "font-size": "0.8em",
-      margin: "0.2em",
+      "border-radius": "0.35em",
+      "border-width": "0.1em"
    };
    var addLinks = (mutated, observer) => {
       var videoElem = document.querySelector("[data-test-id='post-content'] video");
