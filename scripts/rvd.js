@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         RVD
-// @namespace	 https://github.com/Spectroxx/tampermonkey-scripts/tree/main/scripts/rvd.js
+// @namespace    https://github.com/Spectroxx/tampermonkey-scripts/edit/main/scripts/rvd.js 
 // @version      0.1
 // @description  Downloads Reddit videos
 // @author       Spectrox
@@ -43,8 +43,8 @@
             let reddit_save = "https://sd.redditsave.com/download.php";
             let newfallback_url = reddit_save + "?permalink=" + post_url + "&video_url=" + videofallback_url + "&audio_url=" + audiofallback_url;
             a.href = newfallback_url;
-            a.target = "_blank";
-            btn.innerHTML = "Direct Download Link";
+            a.target = "_self";
+            btn.innerHTML = "Download";
             btn.style["margin-top"] = "0.4em";
             parElem.append(a);
             for (let key in btnStyles) {
