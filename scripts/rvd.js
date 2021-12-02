@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         RVD
-// @namespace    https://github.com/Spectroxx/tampermonkey-scripts/edit/main/scripts/rvd.js 
+// @namespace    https://github.com/Spectroxx/tampermonkey-scripts/edit/main/scripts/rvd.js
 // @version      0.1
 // @description  Downloads Reddit videos
 // @author       Spectrox
@@ -11,11 +11,15 @@
 "use strict";
 (function () {
    var btnStyles = {
-      margin: "0.2em",
-      "font-size": "0.8em",
-      padding: "0.4em 0.6em",
-      "border-radius": "4px",
       background: "#fff",
+      color: "black",
+      border: "1px solid #555555",
+      padding: "0.4em 0.6em",
+      "text-align": "center",
+      "font-size": "0.8em",
+      margin: "0.2em",
+      "transition-duration": "0.4s",
+      cursor: "pointer",
    };
    var addLinks = (mutated, observer) => {
       var videoElem = document.querySelector("[data-test-id='post-content'] video");
