@@ -4,7 +4,7 @@
 // @version      1.02
 // @description  Downloads Reddit videos
 // @author       Spectrox
-// @license      WTFPL (http://www.wtfpl.net/about)
+// @license      http://unlicense.org
 // @downloadURL  https://raw.githubusercontent.com/Spectroxx/scripts/main/scripts/rvd.js
 // @match        *://*.reddit.com/*
 // ==/UserScript==
