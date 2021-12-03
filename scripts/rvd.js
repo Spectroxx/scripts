@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         RVD
 // @namespace    https://github.com/Spectroxx/scripts/edit/main/scripts/rvd.js
-// @version      1.02
+// @version      1.03
 // @description  Downloads Reddit videos
 // @author       Spectrox
 // @license      http://unlicense.org
 // @downloadURL  https://raw.githubusercontent.com/Spectroxx/scripts/main/scripts/rvd.js
 // @match        *://*.reddit.com/*
+// @icon         https://www.google.com/s2/favicons?domain=reddit.com
 // ==/UserScript==
 "use strict";
 (function () {
