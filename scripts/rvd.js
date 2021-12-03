@@ -7,7 +7,7 @@
 // @license      http://unlicense.org
 // @downloadURL  https://raw.githubusercontent.com/Spectroxx/scripts/main/scripts/rvd.js
 // @match        *://*.reddit.com/*
-// @icon         https://www.google.com/s2/favicons?domain=reddit.com
+// @icon         https://external-content.duckduckgo.com/ip3/www.reddit.com.ico
 // ==/UserScript==
 "use strict";
 (function () {
