@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         RVD
-// @namespace    https://github.com/Spectroxx/scripts/edit/main/scripts/rvd.js
+// @namespace    https://github.com/Spectroxx/userscripts/edit/main/scripts/rvd.js
 // @version      1.03
 // @description  Downloads Reddit videos
 // @author       Spectrox
 // @license      http://unlicense.org
-// @downloadURL  https://raw.githubusercontent.com/Spectroxx/scripts/main/scripts/rvd.js
+// @downloadURL  https://raw.githubusercontent.com/Spectroxx/userscripts/main/scripts/rvd.js
 // @match        *://*.reddit.com/*
 // @icon         https://external-content.duckduckgo.com/ip3/www.reddit.com.ico
 // ==/UserScript==
