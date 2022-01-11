@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RVD
 // @namespace    https://github.com/Spectroxx/userscripts/edit/main/scripts/rvd.js
-// @version      1.04
+// @version      1.05
 // @description  Downloads Reddit videos
 // @author       Spectrox
 // @license      http://unlicense.org
@@ -13,7 +13,7 @@
 (function () {
    var btnStyles = {
       top: "-2.85em",
-      left: "41em",
+      left: "33em",
       position: "relative",
       background: "#1A1A1B",
       color: "#818384",
