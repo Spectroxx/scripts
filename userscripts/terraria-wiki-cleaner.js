@@ -1,10 +1,13 @@
 // ==UserScript==
-// @name     Terraria Wiki Add Remover
-// @match    *://terraria.wiki.gg/*
-// @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js
-// @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @grant    GM_addStyle
-
+// @name        Terraria Wiki Cleaner
+// @match       *://terraria.wiki.gg/*
+// @author      Spectrox
+// @version     0.1
+// @downloadURL https://raw.githubusercontent.com/Spectroxx/scripts/main/userscripts/terraria-wiki-cleaner.js
+// @icon        https://external-content.duckduckgo.com/ip3/terraria.wiki.gg.ico
+// @require     https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js
+// @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
+// @grant       GM_addStyle
 // ==/UserScript==
 
 waitForKeyElements (".games-showcase-sidebar", killNode);
