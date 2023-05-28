@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Resizable Chat
-// @version      1.1
+// @version      1.1.1
 // @author       Spectrox
 // @license      http://unlicense.org
 // @description  Allows Chat to be resizable.
 // @match        https://xqc.wtf/*
+// @icon         https://xqc.wtf/favicon.ico
 // @updateURL    https://raw.githubusercontent.com/Spectroxx/scripts/main/userscripts/resizable-chat.js
 // @downloadURL  https://github.com/Spectroxx/scripts/blob/main/userscripts/resizable-chat.js
 // @grant        none
