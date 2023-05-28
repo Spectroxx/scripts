@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Resizable Chat
-// @version      1.0
+// @version      1.1
 // @author       Spectrox
 // @license      http://unlicense.org
 // @description  Allows Chat to be resizable.
@@ -17,10 +17,16 @@
     styleElement.type = 'text/css';
 
     const cssCode = `
-        div.sc-bcXHqe.eMhMyt.MuiBox-root {
+        div.eMhMyt {
             overflow: auto;
             resize: horizontal;
             direction: rtl;
+        }
+        div.dbPVel {
+           direction: ltr;
+        }
+        div.FHmcA {
+           min-width: 0;
         }
     `;
 
